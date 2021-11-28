@@ -1,46 +1,67 @@
-# Getting Started with Create React App
+# Spindox App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Questo progetto fa parte di un test preselettivo della società Spindox.
 
-## Available Scripts
+## Table of Contents
+1. [Install](#install)
+2. [Start](#start)
+3. [Test](#test)
 
-In the project directory, you can run:
 
-### `npm start`
+L'obiettivo era sviluppare from scratch un portfolio basandosi sul video in allegato email.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Install
 
-### `npm test`
+Puoi avviare l'app accedendo alla root principale con:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `npm install`
 
-### `npm run build`
+### Start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Dopo l'installazione delle librerie avvia il progetto con il comando seguente:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `npm run start`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Verrà eseguita la modalità di sviluppo con l'apertura della pagina del browser al seguente indirizzo:
+ [http://localhost:3000](http://localhost:3000)
 
-### `npm run eject`
+### Test
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Se vuoi testare l'app puoi farlo tranquillamente digitando:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `npm run test`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Per avviare i test ricorda di avviare prima l'applicazione con <i>npm run start</i>. Questo avvierà i test tramite la libreria Cypress.io\
+Clicca qui [https://www.cypress.io](https://www.cypress.io) per maggiori informazioni.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+<b>Load elements in dom</b>\
+✓ displays thumb (1742ms)\
+✓ displays subtitle span (618ms)\
+✓ displays title h2 (654ms)\
+✓ displays toolbar icons (768ms)\
+\
+<b>UNIT - test single fc</b>\
+✓ load image thumb (916ms)\
+✓ click on icon (486ms)\
+✓ selected icon (584ms)\
+\
+<b>INTEGRAZION - test more fc</b>\
+✓ click on icon & display title + subtitle (887ms)\
+\
+<b>E2E - test all app</b>\
+✓ click on tab email (573ms)\
+✓ click on tab calendar (724ms)\
+✓ click on tab map (504ms)\
+✓ click on tab phone (975ms)\
+✓ click on tab password (681ms)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Maggiori informazioni
+
+Git Hub Salvatore Esposito [https://github.com/salvatore-esposito-green](https://github.com/salvatore-esposito-green).
+
+Git Hub Aziendale [https://github.com/Green-Network-Energy](https://github.com/Green-Network-Energy).
+
+I miei ultimi [progetti](https://www.canva.com/design/DAEuTTe3Cpo/tlybhbITwAQPIlpVE_pu0Q/watch?utm_content=DAEuTTe3Cpo&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)

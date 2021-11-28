@@ -1,0 +1,41 @@
+.iconContainer
+  display: flex
+  justify-content: space-around
+  flex: 1
+  border-top: 3px solid transparent
+  max-width: 50px
+  padding: 0.8rem
+  opacity: 0.5
+  position: relative
+  &:hover
+    border-top: 3px solid forestgreen
+    opacity: 1
+    &:before
+      top: -22px
+      position: absolute
+      content: ""
+      width: 0px
+      height: 0px
+      border-style: solid
+      border-width: 10px 10px 10px 10px
+      border-color: transparent transparent forestgreen transparent
+    i
+      color: forestgreen
+  i
+    align-self: center
+    color: grey
+
+.active
+  border-top: 3px solid forestgreen
+  opacity: 1
+  &:before
+    top: -22px
+    position: absolute
+    content: ""
+    width: 0px
+    height: 0px
+    border-style: solid
+    border-width: 10px 10px 10px 10px
+    border-color: transparent transparent forestgreen transparent
+  i
+    color: forestgreen
